@@ -1,0 +1,262 @@
+* {
+  padding: 0px;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+ul > li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#zhifubao {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#zhifubao .zfb-header {
+  width: 100%;
+  height: 180px;
+  background: #3f454f;
+  display: flex;
+  flex-direction: column;
+}
+
+#zhifubao .zfb-header .zfbtop {
+  width: 100%;
+  height: 35px;
+  display: flex;
+  padding-left: 10px;
+  box-sizing: border-box;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  color: #fff;
+}
+
+#zhifubao .zfb-header .zfbtop .zhong1 {
+  flex: 5;
+  line-height: 35px;
+  display: flex;
+}
+
+#zhifubao .zfb-header .zfbtop .zhong1 .spand {
+  font-size: 10px;
+  line-height: 32px;
+  margin-left: 6px;
+}
+
+#zhifubao .zfb-header .zfbtop .zhong2 {
+  flex: 1;
+  text-align: center;
+  line-height: 35px;
+}
+
+#zhifubao .zfb-header .zfbtop .zhong3 {
+  flex: 1;
+  text-align: center;
+  line-height: 30px;
+}
+
+#zhifubao .zfb-header .zfbtop .zhong4 {
+  flex: 1;
+  text-align: center;
+  line-height: 30px;
+}
+
+#zhifubao .zfb-header .zfbheader2 {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  text-align: center;
+}
+
+#zhifubao .zfb-header .zfbheader2 .headde {
+  flex: 1;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+#zhifubao .zfb-header .zfbheader2 .headde i {
+  font-size: 32px;
+  align-items: center;
+  justify-content: center;
+}
+
+#zhifubao .zfb-header .zfbheader2 .headde p {
+  margin-top: 10px;
+}
+
+#zhifubao .zfb-header .zfbheader2 li:nth-child(2) i {
+  position: relative;
+  top: 3px;
+}
+
+#zhifubao .zfb-header .zfbheader2 li:nth-child(3) i {
+  position: relative;
+  top: 4px;
+}
+
+#zhifubao .zfb-main {
+  flex: 1;
+  background: #fff;
+  display: flex;
+}
+
+#zhifubao .zfb-main .mainbox {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  flex-wrap: wrap;
+  display: flex;
+  box-sizing: border-box;
+  border-collapse: collapse;
+}
+
+#zhifubao .zfb-main .mainbox .mainkuang {
+  width: 25%;
+  height: 20%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-sizing: border-box;
+  border: 1px solid #e6e6e6;
+}
+
+#zhifubao .zfb-main .mainbox .mainkuang i {
+  font-size: 34px;
+}
+
+#zhifubao .zfb-main .mainbox .mainkuang p {
+  font-size: 12px;
+  border-collapse: collapse;
+  margin-top: 5px;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(n) {
+  border-top: 0px;
+  border-left: 0px;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(4n+4) {
+  border-right: 0px;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(1) i {
+  color: #2eb3e8;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(2) i {
+  color: #29ab91;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(3) i {
+  color: #dd2727;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(4) i {
+  color: #2eb3e8;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(5) i {
+  color: #f96268;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(6) i {
+  color: #ffb359;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(7) i {
+  color: #2eb3e8;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(8) i {
+  color: #f96268;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(9) i {
+  color: #f96268;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(10) i {
+  color: #f96268;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(11) i {
+  color: #36bc99;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(12) i {
+  color: #ffb359;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(13) i {
+  color: #f96268;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(14) i {
+  color: #2eb3e8;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(15) i {
+  color: #2eb3e8;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(16) i {
+  color: #2eb3e8;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(17) i {
+  color: #2eb3e8;
+}
+
+#zhifubao .zfb-main .mainbox li:nth-child(18) i {
+  color: #dddddd;
+}
+
+#zhifubao .zfb-footer {
+  width: 100%;
+  height: 50px;
+  background: #fff;
+}
+
+#zhifubao .zfb-footer .zfbfooterbox {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#zhifubao .zfb-footer .zfbfooterbox li {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  flex: 1;
+  color: #747474;
+}
+
+#zhifubao .zfb-footer .zfbfooterbox li i {
+  font-size: 22px;
+  line-height: 22px;
+}
+
+#zhifubao .zfb-footer .zfbfooterbox li p {
+  font-size: 14px;
+  line-height: 14px;
+  margin-top: 5px;
+}

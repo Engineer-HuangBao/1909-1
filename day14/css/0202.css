@@ -1,0 +1,13 @@
+#box .centent {
+  flex-direction: column;
+  align-items: center;
+}
+
+#box .centent .cententbox2 .divs {
+  width: 820px;
+}
+
+#box .trail {
+  flex-direction: column;
+  align-items: center;
+}
