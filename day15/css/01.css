@@ -1,0 +1,444 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+@font-face {
+  font-family: 'iconfont';
+  src: url("iconfont.eot");
+  src: url("iconfont.eot?#iefix") format("embedded-opentype"), url("iconfont.woff2") format("woff2"), url("iconfont.woff") format("woff"), url("iconfont.ttf") format("truetype"), url("iconfont.svg#iconfont") format("svg");
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+}
+
+#elema {
+  height: 100%;
+}
+
+#elema .content .header {
+  background: #0aa4fc;
+  height: 25.33333vw;
+  box-sizing: border-box;
+  padding: 5.33333vw 4vw 2vw;
+}
+
+#elema .content .header div {
+  display: flex;
+  font-size: 4.26667vw;
+  color: #fff;
+  line-height: 4.26667vw;
+}
+
+#elema .content .header div img {
+  height: 4.26667vw;
+  margin-right: 1.33333vw;
+}
+
+#elema .content .header div div {
+  margin-left: 0.53333vw;
+  margin-top: 1.6vw;
+  border: solid 1.33333vw;
+  width: 0px;
+  height: 0px;
+  border-color: transparent;
+  border-top-color: #ffffff;
+}
+
+#elema .content .header input {
+  margin-top: 2.66667vw;
+  width: 92vw;
+  border-radius: 0.8vw;
+  color: #a9a9a9;
+  font-size: 3.46667vw;
+  height: 9.46667vw;
+  background: #ffffff url(../images/02.png) no-repeat;
+  background-position: 16vw 1.2vw;
+}
+
+#elema .content .bar {
+  height: 46.66667vw;
+}
+
+#elema .content .bar .div11 {
+  flex-wrap: wrap;
+  display: flex;
+  height: 42vw;
+}
+
+#elema .content .bar .div11 div {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.93333vw;
+  color: #676767;
+}
+
+#elema .content .bar .div11 div a {
+  color: #818181;
+}
+
+#elema .content .bar .div11 div img {
+  height: 9.33333vw;
+}
+
+#elema .content .bar .div22 {
+  height: 4.53333vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#elema .content .bar .div22 div {
+  width: 8.53333vw;
+  float: left;
+}
+
+#elema .content .bar .div22 div .hr1 {
+  width: 2.4vw;
+  float: left;
+  border-style: solid;
+  color: #ceedff;
+}
+
+#elema .content .bar .div22 div .hr2 {
+  width: 2.4vw;
+  float: right;
+  border-style: solid;
+  color: #cbcbcb;
+}
+
+#elema .content .tuwen1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#elema .content .tuwen1 .frame1 {
+  height: 29.33333vw;
+  width: 94.66667vw;
+  background: #f9f9f9;
+  margin-bottom: 0.93333vw;
+  padding: 3.86667vw 4.26667vw;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 1.33333vw;
+}
+
+#elema .content .tuwen1 .frame1 h2 {
+  font-size: 4vw;
+  line-height: 4vw;
+  margin-bottom: 2.4vw;
+}
+
+#elema .content .tuwen1 .frame1 p {
+  font-size: 2.93333vw;
+  line-height: 2.93333vw;
+  color: #767676;
+  margin-bottom: 1.33333vw;
+}
+
+#elema .content .tuwen1 .frame1 a {
+  font-size: 2.93333vw;
+  line-height: 2.93333vw;
+  color: #a47c7a;
+}
+
+#elema .content .tuwen1 .frame1 img {
+  height: 20vw;
+  position: absolute;
+  top: 4.4vw;
+  right: 5.33333vw;
+}
+
+#elema .content .tuwen1 .frame2 {
+  height: 10.66667vw;
+  width: 94.66667vw;
+  background: #feecc6;
+  border-radius: 1.33333vw;
+  margin-bottom: 1.33333vw;
+}
+
+#elema .content .tuwen1 .frame2 img {
+  float: left;
+  position: relative;
+  top: 0.93333vw;
+  left: 2.66667vw;
+}
+
+#elema .content .tuwen1 .frame2 h2 {
+  font-size: 2.66667vw;
+  line-height: 10.66667vw;
+  float: left;
+  margin-left: 5.33333vw;
+  margin-right: 4.4vw;
+  color: #634f1c;
+}
+
+#elema .content .tuwen1 .frame2 ul {
+  float: left;
+}
+
+#elema .content .tuwen1 .frame2 ul li {
+  font-size: 2.66667vw;
+  line-height: 10.66667vw;
+  color: #64501d;
+}
+
+#elema .content .tuwen1 .frame2 a {
+  font-size: 2.66667vw;
+  line-height: 10.66667vw;
+  float: right;
+  margin-right: 4vw;
+}
+
+#elema .content .tuwen1 .frame3 {
+  height: 23.33333vw;
+  width: 94.66667vw;
+  box-sizing: border-box;
+  background: #0886ff;
+  border-radius: 1.33333vw;
+  padding: 5.06667vw 0vw 0vw 13.33333vw;
+}
+
+#elema .content .contenttop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5.06667vw;
+}
+
+#elema .content .contenttop hr {
+  border-style: solid;
+  color: #64501d;
+  width: 5.33333vw;
+  height: 0vw;
+  color: #989898;
+}
+
+#elema .content .contenttop p {
+  margin: 0 3.6vw;
+  font-size: 3.73333vw;
+  line-height: 3.73333vw;
+}
+
+#elema .content .ull {
+  display: flex;
+  width: 100%;
+  height: 16.8vw;
+}
+
+#elema .content .ull li {
+  text-align: center;
+  flex: 1;
+  font-size: 3.46667vw;
+  line-height: 16.8vw;
+  list-style-type: none;
+}
+
+#elema .content .contentmatter {
+  width: 100%;
+}
+
+#elema .content .contentmatter .neirong {
+  width: 100%;
+  display: flex;
+}
+
+#elema .content .contentmatter .neirong .neitongleft {
+  width: 21.33333vw;
+  height: 100%;
+}
+
+#elema .content .contentmatter .neirong .neitongleft img {
+  width: 17.33333vw;
+  float: right;
+  margin-right: 1.33333vw;
+}
+
+#elema .content .contentmatter .neirong .neirongright {
+  width: 74.66667vw;
+  height: 100%;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrightone {
+  display: flex;
+  position: relative;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrightone span {
+  width: 7.33333vw;
+  height: 4.66667vw;
+  background: yellow;
+  border-radius: 0.4vw;
+  font-size: 2.66667vw;
+  line-height: 4.66667vw;
+  text-align: center;
+  color: #77460b;
+  margin-right: 1.33333vw;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrightone p {
+  font-size: 3.73333vw;
+  line-height: 4.66667vw;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrightone img {
+  position: absolute;
+  right: 0px;
+  top: 0.4vw;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrighttow {
+  display: flex;
+  margin-top: 2.66667vw;
+  position: relative;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrighttow span {
+  font-size: 2.4vw;
+  line-height: 4.4vw;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrighttow p {
+  font-size: 2.66667vw;
+  line-height: 4.66667vw;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrighttow a {
+  position: absolute;
+  top: 0.4vw;
+  right: 0;
+  width: 11.33333vw;
+  height: 3.33333vw;
+  font-size: 2.4vw;
+  line-height: 3.33333vw;
+  background: #009bff;
+  border-radius: 0.66667vw;
+  text-align: center;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrightthree {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3.33333vw;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrightthree table {
+  line-height: 2.66667vw;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrightthree table tr td {
+  font-size: 2.66667vw;
+  width: 12vw;
+  color: #666666;
+  text-align: center;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrightfour {
+  display: flex;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrightfour a {
+  width: 12.53333vw;
+  height: 3.73333vw;
+  border: 1px solid #666666;
+  color: #666666;
+  text-align: center;
+  line-height: 3.73333vw;
+  font-size: 2.4vw;
+  margin: 3.2vw 0.66667vw 3.73333vw;
+}
+
+#elema .content .contentmatter .neirong .neirongright hr {
+  border-style: dotted;
+  color: #676767;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrightfive {
+  display: flex;
+  position: relative;
+  margin-top: 2.66667vw;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrightfive div {
+  width: 4vw;
+  height: 4vw;
+  background: #ed746b;
+  font-size: 2.4vw;
+  color: #fff;
+  text-align: center;
+  line-height: 4vw;
+  margin-right: 1.6vw;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrightfive p {
+  font-size: 2.66667vw;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrightfive span {
+  position: absolute;
+  top: 0.4vw;
+  right: 0;
+  font-size: 2.66667vw;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrightsix {
+  margin-bottom: 2.66667vw;
+  display: flex;
+  margin-top: 2.66667vw;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrightsix div {
+  width: 4vw;
+  height: 4vw;
+  background: #f68a42;
+  font-size: 2.4vw;
+  color: #fff;
+  text-align: center;
+  line-height: 4vw;
+  margin-right: 1.6vw;
+}
+
+#elema .content .contentmatter .neirong .neirongright .neirongrightsix p {
+  font-size: 2.66667vw;
+}
+
+#elema .kongbai {
+  height: 18.66667vw;
+  width: 100%;
+}
+
+#elema .elemabase {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  height: 18.66667vw;
+  display: flex;
+}
+
+#elema .elemabase div {
+  flex: 1;
+  background: #fff;
+  font-size: 3.73333vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
