@@ -1,0 +1,32 @@
+*{padding: 0;margin: 0;}
+@function vw($px){
+    @return($px / 750) * 100vw;
+}
+#box{
+    .box1{
+        width: vw(400);
+        height: vw(400);
+        border: 1px solid black;
+        position: absolute;
+        top: 0;
+        right:0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        display: flex;
+
+        div{
+            width: vw(100);
+            height: vw(100);
+            flex: 1;
+            border: 1px solid black;
+            background: yellow;   
+            background: url(../images/06.png) no-repeat;
+            background-size: 400%;
+        } 
+        .box3{
+            background-position: 0% 0%;
+        } 
+    }
+
+}
